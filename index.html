@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My CV</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <main class="main">
+<div class="main-info">
+<div class="about">
+<h1>Vladimir Eremeev</h1>
+<img class="photo" src="/img/face.jpg" alt="photo" class="photo">
+</div>
+<div class="education">
+    <h2>Education:</h2>
+<p>Arkhangelsk College of Telecommunications</p>
+   <p> Information Security (2018-2022)</p> 
+</div>
+<div class="about-me">
+    <h2>About me:</h2>
+    <p>Self-taught programmer, on the course I want to improve my front-end development skills</p>
+</div>
+<div class="skills">
+    <H2>Skills:</H2>
+    <ul class="skill-list">
+        <li>HTML 5</li>
+        <li>CSS 3</li>
+        <li>Javascript</li>
+        <li>C++</li>
+    </ul>
+</div>
+<div class="code-example">
+    <h2>Code example</h2>
+    <code> 
+        browser.elements('xpath', '//iframe', function(result) {
+        if (result.value.length != 0) {
+          browser.elements('xpath', '//div[@class="x-published-content"]//iframe', function(result) {
+            if (result.value.length != 0) {
+              browser.verify.ok(true);
+            } else {
+              browser.elements('xpath', '//div[@class="responsive-embed"]//iframe', function(result) {
+                if (result.value.length != 0) {
+                  browser.verify.ok(true);
+                } else {
+                  browser.verify.ok(
+                    false,
+                </code>
+</div>
+</div>
+</main>
+<div class="aside">
+    <div class="contacts">
+        <h2>Contacts</h2>
+        <ul>
+            <li>phone:<a class="tel" href="tel:+79502543326">+79502543326</a></li>
+            <li>Mail:<E-Mail>vladimirt345@gmail.com</E-Mail></li>
+        </ul>
+    </div>
+    <div class="carrer">
+        <h2>Career</h2>
+<h3>Cetera</h3>
+<p>web-master</p>
+<p>01.03.2021-n.a.</p>
+    </div>
+    <div class="lang">
+        <h2>Language:</h2>
+        <p>English:A1</p>
+    </div>
+</div>
+<footer class="footer">
+    <a  href="https://github.com/v-eremeev-source"><img class="github-logo" src="/img/Git.png" alt="github logo"></a>
+    <a  href="https://rs.school/js-stage0/"><img class="rs-logo" src="/img/rs.png" alt="school logo"></a>
+</footer>
+</body>
+</html>

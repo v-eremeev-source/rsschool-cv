@@ -1,0 +1,54 @@
+body {
+    font-family: "Roboto",sans-serif;
+    box-sizing: border-box;
+    background-image: url(/img/background.jpg);
+    color:white;
+
+  }
+  .main{
+    display: flex;
+}
+.main-info{
+    width:60%;
+    margin: auto;
+    text-align: center;
+}
+.photo{
+    height: 20%;
+    width: 20%;
+}
+.aside{
+    width:40%;
+    margin: auto;
+    text-align: center;
+}
+.tel{
+    text-decoration: none;
+    color:white;
+}
+.tel:hover{
+    text-decoration: underline;
+    color:blue;
+}
+ul{
+    list-style: none; 
+}
+.skill-list{
+    padding-left: 10px;
+    line-height:1.5;
+}
+
+.footer {
+    background-color:white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .github-logo{
+    height: 10%;
+    width: 10%;
+  }
+  .rs-logo{
+    height: 25%;
+    width: 20%;
+  }
